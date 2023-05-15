@@ -24,13 +24,6 @@ class Square extends Rectangle {
     }
 }
 
-let rec = new Rectangle(2,2);
-console.log(rec.width);
-console.log(rec.height);
-console.log(rec.getArea())
-
-let sq = new Square(2,2);
-console.log(sq.getPerimeter());
 
 // Do not change the code below this line
 window.Rectangle = Rectangle;
